@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe68e3f0-e690-40cb-bb4f-b4a5c378b9a4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/payment/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment/src/main/java/com/study/springcloud/payment/StartApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment/src/main/java/com/study/springcloud/payment/controller/HttpResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment/src/main/java/com/study/springcloud/payment/controller/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment/src/main/java/com/study/springcloud/payment/dao/PaymentDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment/src/main/java/com/study/springcloud/payment/entities/PaymentDO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment/src/main/java/com/study/springcloud/payment/service/IPaymentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment/src/main/java/com/study/springcloud/payment/service/impl/PaymentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="fe68e3f0-e690-40cb-bb4f-b4a5c378b9a4" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/payment/target/" />
@@ -47,8 +36,8 @@
       <file leaf-file-name="Payment.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/payment/src/main/resources/mapper/Payment.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+            <state relative-caret-position="152">
+              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -446,7 +435,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -705,8 +694,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/payment/src/main/resources/mapper/Payment.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        <state relative-caret-position="152">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
         </state>
       </provider>
     </entry>
