@@ -1,22 +1,8 @@
 server:
-  port: 8081
+  port: 8080
 spring:
   application:
-    name: payment-service
-
-  datasource:
-    #当前数据源操作类型
-    type: com.alibaba.druid.pool.DruidDataSource
-    #mysql驱动包
-    driver-class-name: org.gjt.mm.mysql.Driver
-    url: jdbc:mysql://192.168.3.250:3306/shop?useUnicode=true&characterEncoding=utf8&useSSL=false
-    username: root
-    password: 123456
-
-mybatis:
-  mapperLocations: classpath:mapper/*.xml
-  #所有entity别名类所在包
-  type-aliases-package: com.study.springcloud.payment.entities
+    name: order-service
 
 eureka:
   client:
@@ -28,7 +14,7 @@ eureka:
       defaultZone: http://localhost:7001/eureka  #单机版
   #      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka  #集群版
   instance:
-    instance-id: payment8081
+    instance-id: order8080
     #访问路径可以显示IP地址
     prefer-ip-address: true
     #Eureka客户端向服务端发送心跳的时间间隔.单位为秒(默认30 秒)

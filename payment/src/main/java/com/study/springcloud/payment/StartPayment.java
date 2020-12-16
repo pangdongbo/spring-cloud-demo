@@ -9,6 +9,7 @@ package com.study.springcloud.payment;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 /**
  * @author 冰飞江南
@@ -17,10 +18,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @since JDK1.8
  */
 @SpringBootApplication
-public class StartApplication {
+@EnableEurekaClient
+public class StartPayment {
 
     public static void main(String args[]) {
-        SpringApplication.run(StartApplication.class, args);
+        SpringApplication.run(StartPayment.class, args);
     }
 
 }
