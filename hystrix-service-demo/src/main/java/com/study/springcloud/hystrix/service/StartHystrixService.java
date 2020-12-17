@@ -2,27 +2,22 @@
  * 学无止境
  *****************************************************************************/
 
-package com.study.springcloud.order;
+package com.study.springcloud.hystrix.service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
-import org.springframework.cloud.netflix.ribbon.RibbonClient;
-import org.springframework.cloud.openfeign.EnableFeignClients;
 
 /**
  * @author 冰飞江南
- * @Title:
- * @history 2020年12月16日 冰飞江南 新建
+ * @Title: 熔断示例：服务端
+ * @history 2020年12月17日 冰飞江南 新建
  * @since JDK1.8
  */
 @SpringBootApplication
-@EnableEurekaClient
-@EnableFeignClients
-public class StartOrder {
+public class StartHystrixService {
 
     public static void main(String args[]) {
-        SpringApplication.run(StartOrder.class, args);
+        SpringApplication.run(StartHystrixService.class, args);
     }
 
 }

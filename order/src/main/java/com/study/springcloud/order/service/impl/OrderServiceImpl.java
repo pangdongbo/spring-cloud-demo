@@ -26,7 +26,7 @@ public class OrderServiceImpl implements IOrderService {
 
     private String url = "http://PAYMENT-SERVICE";
 
-  @Override
+    @Override
     public HttpResult get(String id) {
         return restTemplate.getForObject(url + "/payment/get/" + id, HttpResult.class);
     }
